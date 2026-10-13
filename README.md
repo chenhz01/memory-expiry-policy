@@ -6,6 +6,8 @@ rules matched on record attributes; the tool validates the policy, applies it
 to a memory store, and emits a purge audit trail. Pure standard library, one
 file, no daemon. *No direct equivalent found as of 2026-10-13.*
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Agent memory stores grow forever because expiry is ad hoc: some code paths
